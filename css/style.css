@@ -1,11 +1,6 @@
-/*--
-	Author: W3Layouts
-	Author URL: http://w3layouts.com
-	License: Creative Commons Attribution 3.0 Unported
-	License URL: http://creativecommons.org/licenses/by/3.0/
---*/
-/*-- Reset-Code --*/
-
+html {
+	scroll-behavior: smooth;
+  }
 body {
 	padding: 0;
 	margin: 0;
@@ -165,7 +160,7 @@ a.navbar-brand.logo:hover {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin: 1em 0;
-    color: #0f9292;	
+    color: #002e2e;	
 }
 .w3ls-abt-bt {
     margin: 2em 0 0 0;
@@ -174,7 +169,7 @@ a.navbar-brand.logo:hover {
 	color:#9000f0;
 }
 .abt-text h6 {
-    color: #73bdbd;
+    color: #003838;
     font-size: 1.1em;
     letter-spacing: 1px;
 }
@@ -182,7 +177,7 @@ a.navbar-brand.logo:hover {
     font-size: 0.9em;
 letter-spacing: 3px;
     line-height:2em;
-    color: #999;
+    color: #000;
 	margin: 2em 0;
 }
 .srv-w3ls a {

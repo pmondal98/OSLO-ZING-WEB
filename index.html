@@ -21,7 +21,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- style.css-file -->
 	<link href="css/style.css" rel='stylesheet' type='text/css' />
 <!-- //style.css-file -->
+<style>
+	.video-container {
+    overflow: hidden;
+    position: relative;
+    width:100%;
+}
 
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+</style>
 </head>
 <!-- Head -->
 <body>
@@ -43,11 +63,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						
 					<div class="collapse navbar-collapse " id="myNavbar">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="./index.html" class="scroll">HOME</a></li>
-							<li><a href="#about" class="scroll">About</a></li>							
-							<li><a href="#testimonial" class="scroll">Testimonial</a></li>
-							<li><a href="./memes">MEMES</a></li>
-							<li><a href="./team">WHO WE ARE</a></li>							
+							<li><a href="./index.html" class="scroll">HOME</a></li>							
+							<li><a href="#testimonial" class="scroll">A FEW WORDS</a></li>
+							<li><a href="./memes" target="_blank">MEMES</a></li>
+							<li><a href="./info" target="_blank">WHO WE ARE</a></li>
+							<li><a href="#contact">CONTACT US</a></li>							
 						</ul>
 					</div>
 				</div>
@@ -73,8 +93,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					Team Oslo headed by Hamid Reza (don't call him Sir!) is group of brilliant, enthusiastic individuals who are always ready to help.
 					Here's a video introducing you to some of us!</p>
 			</div>
-			<div class="col-md-6 col-sm-6  abt-img"> 
-				<iframe width ="355" height = "315" src="https://www.youtube.com/embed/Jn_KTPMyjxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+			<div class="col-md-6 col-sm-6">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Jn_KTPMyjxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				  </div>								
 			</div>
 			<div class="clearfix"></div>
 			<div class="w3ls-abt-bt">
@@ -187,8 +209,26 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					experience educational as well as memorable :)
 				</p>
 			</div>
-			<div class="col-md-6 col-sm-6  abt-img"> 
-				<iframe width ="355" height = "315" src="https://www.youtube.com/embed/lrZGs4LJ18Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+			<div class="col-md-6 col-sm-6">
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Jn_KTPMyjxM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				  </div>								
+			</div>
+			
+		</div>
+	</div>	
+</section>
+<!--//team-section-end-here-->
+<!--team-section-starts-here-->
+<section class="services" id="services" style="background: #c2ffff;">
+	<div class="container">
+		<h3>WE TOGETHER</h3>
+		<div class="agile-about-grids">
+			<div class="col-md-6 col-sm-6 abt-img"> 
+				<img src="./images/head-meme.jpg"  alt="image" class="img-responsive">
+			</div>
+			<div class="col-md-6 col-sm-6 abt-img">
+				<img src="./images/cover_Mesa de trabajo 1 copia-min.jpg" alt="image" class="img-responsive">
 			</div>
 			
 		</div>
@@ -202,7 +242,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="team-grids">
 			<div class="col-md-3 col-sm-3 col-xs-3 w3ls-team w3ls-ma1">
 				<div class="agile-team-grid">
-					<img src="images/abt.jpeg" alt="images" class="img-responsive" />
+					<img src="images/abt1.jpeg" alt="images" class="img-responsive" />
 						<div class="caption">
 							<div class="social-icon">
 								<a href="#" class="social-button twitter"><i class="fa fa-twitter"></i></a>
@@ -275,20 +315,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<h3>contact</h3>
 		<div class="agile-contact-grids text-center">
 			<!--map-->
-					<div class="google-map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1306737.8952163039!2d-74.2719053175047!3d40.47258587375279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1488602553137"></iframe>
+					<div class="google-map">						
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d128083.92971812302!2d10.645034028318284!3d59.89378064099975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46416e61f267f039%3A0x7e92605fd3231e9a!2sOslo%2C%20Norway!5e0!3m2!1sen!2sin!4v1588517693951!5m2!1sen!2sin"></iframe>
 					</div>	
-		<!--//map-->
-			<div class=" agile-contact">
-	
-				<div class="contact-form">
-					
-				</div>	
-			</div>
+		<!--//map-->			
 		</div>
 		<div class="cnt-line"></div>
 		<div class="copy-left">
-			<p class="footer-gd">© 2017 Trade Mart. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">W3layouts</a></p>
+			<p class="footer-gd">© 2020 OSLO. All Rights Reserved | Design by OSLO WEB TEAM</p>
 		</div>
 	</div>
 </section>
