@@ -141,13 +141,3 @@ section .section-title {
         
     }
 } */
-
-
-.masthead {
-    height: 90vh;
-    min-height: 400px;
-    background-image: url('../teamhead.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }

@@ -1016,7 +1016,7 @@ const infojson = [
     "highradius_exp": "Never thought I would learn so much in this short period of time and make such crazy good friends!",
     "pic": "https://drive.google.com/open?id=1YEB6ham3pxdxpm2EmSBj1pN5aSdl1r7V",
     "skills": "Cloud Computing, AWS, Front End Development, Industrial IoT, Python & JAVA(DS & Algorithms), Linux, RDBMS(SQL), Android Studio, Github",
-    "team": "",
+    "team": "WEB",
     "img_link": "https://i.ibb.co/HFrVcvm/prawal.jpg"
   },
   {
