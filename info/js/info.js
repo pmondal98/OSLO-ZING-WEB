@@ -105,7 +105,7 @@ const infojson = [
     "timestamp": "5/3/2020 1:21:51",
     "email": "1705746@kiit.ac.in",
     "name": "Sourabh Garg",
-    "crazy_things": "Bunking lectures ",
+    "crazy_things": "Crazy thing about me is Bunking lectures!",
     "interests": "Exploring on YouTube ",
     "post_lockdown_plan": "Would like to meet my friends ",
     "insta": "https://www.instagram.com/sourabhh_garg ",
@@ -114,7 +114,7 @@ const infojson = [
     "oslo_bio": "Calm and body builder",
     "highradius_exp": "Very high pace . Just breakdown",
     "pic": "https://drive.google.com/open?id=1g8YUd185SDp-fwANZ-J0W7IWuZull9QO",
-    "skills": "",
+    "skills": "Web Development, PHP, C++, Python",
     "team": "WEB",
     "img_link": "https://i.ibb.co/34zTdNm/FB-IMG-1588448180418-sourabh-garg.jpg"
   },
