@@ -26,6 +26,16 @@
     }
 
     const generateTeamMember = (teamMember) => {
+
+        if (!teamMember.crazy_things) {
+            teamMember.crazy_things = "Discover Me!"
+        }
+
+        if (!teamMember.skills) {
+            teamMember.skills = "Looks like I am interesting!"
+        }
+
+
         addMemberModal(teamMember);
 
         const htmlCode = `
@@ -36,7 +46,7 @@
                     <div class="frontside h-100">
                         <div class="card h-100">
                             <div class="card-body text-center">
-                                <p><img class=" img-fluid" src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_01.png" alt="card image"></p>
+                                <p><img class=" img-fluid" src="${teamMember.img_link}" alt="card image"></p>
                                 <h4 class="card-title">${teamMember.name}</h4>
                                 <p class="card-text">${teamMember.crazy_things}</p>
                                 <!--
@@ -51,7 +61,7 @@
                                 <h4 class="card-title">${teamMember.name}</h4>
                                 <p class="card-text">${teamMember.skills}</p>
         
-                                <button data-toggle="modal" data-target="#${teamMember.email}" class="btn btn-info-outline"><b>Profile</b></button>
+                                <button data-toggle="modal" data-target="#${teamMember.email}" class="btn btn-info-outline"><b>Q & A</b></button>
                             </div>
                         </div>
                     </div>
@@ -122,7 +132,7 @@
                             
 
                             <div>
-                                <b>Q. our experience at HighWay to HighRadius so far? (Changes you noticed in yourself after joining?)</b>
+                                <b>Q. Your experience at HighWay to HighRadius so far? (Changes you noticed in yourself after joining?)</b>
                                 <br>
                                 <br>
                                 <p>${teamMember.highradius_exp}</p>
